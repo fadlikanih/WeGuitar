@@ -6,13 +6,10 @@
 body {
     font-family: 'Inter', sans-serif;
     
-        background-image: url('/public/img/halm.jpg' );
-        background-origin: ;
+        background-image: url('/public/img/Fotoram.io.jpg' );
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
-        overflow-y: hidden;     
     }
 
 
