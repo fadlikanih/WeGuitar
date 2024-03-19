@@ -1,13 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const HomePage: React.FC = () => {
-  const navigate = useNavigate();
-
-  const navigateSearchPage = () => {
-    navigate("/chord");
-  };
 
   return (
     <div>
