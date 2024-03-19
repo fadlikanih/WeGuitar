@@ -8,16 +8,16 @@ function Navbar() {
             </div>
             <ul className='flex text-white text-lg '>
                 <li>
-                    <a href='home'>Beranda</a>
+                    <a href='/home'>Beranda</a>
                 </li>
                 <li className='mx-8'>
-                    <a href='chord'>Cord</a>
+                    <a href='/chord'>Cord</a>
                 </li>
                 <li className="mx-8">
-                    <a href='tutorial'>Tutorial</a>
+                    <a href='/tutorial'>Tutorial</a>
                 </li>
                 <li className="mr-4">
-                    <a href='search'>Search</a>
+                    <a href='/search'>Search</a>
                 </li>
             </ul>
         </nav>
