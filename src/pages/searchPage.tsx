@@ -38,7 +38,7 @@ const SearchPage: React.FC = () => {
               placeholder="Search for songs"
               className="input input-bordered rounded-md py-4 px-4 w-full mb-4 bg-white/70 backdrop-blur-sm"
             />
-            <button onClick={searchSongs} className="btn rounded-md py-2 px-2 bg-orange-500 hover:bg-orange-600 text-white w-full">Search</button>
+            <button onClick={searchSongs} className="btn rounded-md py-2 px-2 bg-orange-500 hover:bg-orange-600 text-black w-full">Search</button>
           </div>
         </div>
         <div>

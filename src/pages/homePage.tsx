@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
       <Navbar />
       <main className='ms-[7rem] mt-[3rem] mr-[4rem] m-[3rem] mx-4'>
         <div className='flex items-center text-center'></div>
-        <h1 className='text-[#fff] text-4xl font-bold px-20 text-center'>Pembelajaran gitar adalah perjalanan pribadi yang penuh dengan tantangan dan pencapaian. Setiap chord yang Anda pelajari dan setiap lagu yang Anda kuasai membawa Anda lebih dekat kepada impian Anda menjadi seorang musisi yang mahir</h1>
+        <h3 className='text-[#fff] text-4xl font- px-20 text-center'>Pembelajaran gitar adalah perjalanan pribadi yang penuh dengan tantangan dan pencapaian. Setiap chord yang Anda pelajari dan setiap lagu yang Anda kuasai membawa Anda lebih dekat kepada impian Anda menjadi seorang musisi yang mahir</h3>
         <button className='absolute backdrop-blur-sm bg-whi font-bold py-2 px-7 mt-[14rem] m-[9rem] mx-[12rem] '>
           <a href="tentang">Tentang</a>
         </button>
@@ -30,8 +30,18 @@ const HomePage: React.FC = () => {
             </button>
           </div>
         </div>
-        <div className=" text-white mt-80 ">Temukan website kami di <br />www.weguitar.com</div>
       </main>
+      <div className='col-span-2 h-[34rem] bg-black backdrop-blur-lg rounded bg-black/60 justify-center items-center'>
+      <div className='self-start mt-8 flex justify-center'>
+        <img src="/img/logo.png" alt="" height={120} width={120} />
+      </div>
+         <div className='text-white  m-10'>
+         <h4 className='text-[#fff] text-2xl font- px-2 text-center'>Pembelajaran gitar adalah perjalanan pribadi yang penuh dengan tantangan dan pencapaian. Setiap chord yang Anda pelajari dan setiap lagu yang Anda kuasai membawa Anda lebih dekat kepada impian Anda menjdengan webiste ini pengguna bisa lebih cepat mempelajari lebih dalam tentang gitar. dengan adanya fitur fitur ini anda tidak perlu berpindah website ke website lain</h4>
+        </div>
+      </div>
+
+
+
     </div>
   );
 };

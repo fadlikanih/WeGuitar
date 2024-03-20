@@ -7,16 +7,16 @@ function Navbar() {
                 <p className='text-[#fff] text-xl'> <a href="home">WeGuitar</a></p>
             </div>
             <ul className='flex text-white text-lg '>
-                <li>
+                <li className="mx-8">
                     <a href='/home'>Beranda</a>
                 </li>
-                <li className='mx-8'>
+                <li className='mx-1'>
                     <a href='/chord'>Cord</a>
                 </li>
                 <li className="mx-8">
                     <a href='/tutorial'>Tutorial</a>
                 </li>
-                <li className="mr-4">
+                <li className="mr-8">
                     <a href='/search'>Search</a>
                 </li>
             </ul>

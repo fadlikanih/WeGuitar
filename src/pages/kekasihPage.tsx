@@ -1,5 +1,5 @@
 import Navbar from './Navbar';
-export default function ChordPage() {
+export default function KekasihPage() {
 
   return (
     <div>
@@ -65,7 +65,7 @@ export default function ChordPage() {
           <input type="text" placeholder='pencarian lagu ' className='bg-black/90 text-white px-4 m-1 focus:text-white focus:outline-none' />
           <input type="text" placeholder='cari' className='bg-black/90 mt-3 w-[4rem] px-4 m-1 ' />
           <div className='text-white text-bold] m-10'>
-            <p><a href="/kekasihPage.tsx">1'st Album: Kekasih Yang Tak Dianggap  <br />  </a>
+            <p><a href="/kksPage.tsx">1'st Album: Kekasih Yang Tak Dianggap  <br />  </a>
               <a href="">2007 Rintang</a> <br />
               <a href="">*Selamat Tinggal Kekasih yang Baik</a> <br />
               <a href=""> *Saat Teleponku Tak Kau Angkat *Tentangmu</a> <br />
